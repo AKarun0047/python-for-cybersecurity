@@ -15,7 +15,7 @@ def DNSScan(host):
     if ans:
         print("DNS Server at %s"%host)
     
-host = "8.8.8.8"
+host = input("Enter The Domain To Scan:   ")
 
 SynScan(host)
 DNSScan(host)
